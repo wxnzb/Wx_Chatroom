@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/s.dir/s.cpp.o CMakeFiles/s.dir/sq.cpp.o CMakeFiles/s.dir/json.cpp.o -o s  /usr/lib/x86_64-linux-gnu/libmysqlclient.so 

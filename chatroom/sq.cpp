@@ -1325,7 +1325,11 @@ void Person::adManager() // 这个群是否存在，你和他是否在里面，�
             {
                 if (groupynMe(msg.id)) // 你要加的人是群成员
                 {
-                    if (msg.state == 2) // 你要加
+                    if(msg.id==findId()) // 你要加的人是群主
+                    {
+                        msg_back.state = MYSELF;
+                    }
+                    else if (msg.state == 2) // 你要加
                     {
                         if (groupynMe(msg.id) == 3) // 你要加的人不是管理员
                         {
@@ -1337,7 +1341,7 @@ void Person::adManager() // 这个群是否存在，你和他是否在里面，�
                             msg_back.state = ISMANAGER;
                         }
                     }
-                    if (msg.state == 3) // 你要删除
+                    else if (msg.state == 3) // 你要删除
                     {
                         if (groupynMe(msg.id) == 2) // 你要删除的人是管理员
                         {

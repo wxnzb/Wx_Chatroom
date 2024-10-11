@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/sweet/git/learngit/chatroom/build",
+  "command": "/usr/bin/c++  -I/home/sweet/git/learngit/chatroom -g -std=gnu++17 -o CMakeFiles/s.dir/s.cpp.o -c /home/sweet/git/learngit/chatroom/s.cpp",
+  "file": "/home/sweet/git/learngit/chatroom/s.cpp"
+},
+{
+  "directory": "/home/sweet/git/learngit/chatroom/build",
+  "command": "/usr/bin/c++  -I/home/sweet/git/learngit/chatroom -g -std=gnu++17 -o CMakeFiles/s.dir/sq.cpp.o -c /home/sweet/git/learngit/chatroom/sq.cpp",
+  "file": "/home/sweet/git/learngit/chatroom/sq.cpp"
+},
+{
+  "directory": "/home/sweet/git/learngit/chatroom/build",
+  "command": "/usr/bin/c++  -I/home/sweet/git/learngit/chatroom -g -std=gnu++17 -o CMakeFiles/s.dir/json.cpp.o -c /home/sweet/git/learngit/chatroom/json.cpp",
+  "file": "/home/sweet/git/learngit/chatroom/json.cpp"
+},
+{
+  "directory": "/home/sweet/git/learngit/chatroom/build",
+  "command": "/usr/bin/c++  -I/home/sweet/git/learngit/chatroom -g -std=gnu++17 -o CMakeFiles/c.dir/c.cpp.o -c /home/sweet/git/learngit/chatroom/c.cpp",
+  "file": "/home/sweet/git/learngit/chatroom/c.cpp"
+},
+{
+  "directory": "/home/sweet/git/learngit/chatroom/build",
+  "command": "/usr/bin/c++  -I/home/sweet/git/learngit/chatroom -g -std=gnu++17 -o CMakeFiles/c.dir/json.cpp.o -c /home/sweet/git/learngit/chatroom/json.cpp",
+  "file": "/home/sweet/git/learngit/chatroom/json.cpp"
+}
+]

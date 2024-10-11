@@ -1,0 +1,4 @@
+/home/sweet/git/learngit/chatroom/build/CMakeFiles/s.dir
+/home/sweet/git/learngit/chatroom/build/CMakeFiles/c.dir
+/home/sweet/git/learngit/chatroom/build/CMakeFiles/edit_cache.dir
+/home/sweet/git/learngit/chatroom/build/CMakeFiles/rebuild_cache.dir

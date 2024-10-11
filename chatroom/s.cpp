@@ -195,7 +195,7 @@ void ChatServer::run()
             if ((events[i].events & EPOLLERR) || (events[i].events & EPOLLHUP) || (!(events[i].events & EPOLLIN)))
             {
                 printf("%d\n",(events[i].events));
-              std::cout << "哈哈哈哈" << std::endl;
+            //  std::cout << "哈哈哈哈" << std::endl;
                 fprintf(stderr, "epoll error\n");
                 //新加的，将异常突出的给他改成离线
                 struct protocol msg;
@@ -214,7 +214,7 @@ void ChatServer::run()
             { // 已有连接传来消息
                 // 是否应该县监测是否在线
                 std::cout << "已经连接的epollfd说话了" << events[i].data.fd;
-                //  ynLive(events[i].data.fd);
+                ynLive(events[i].data.fd);
                 messageCfd(events[i].data.fd);
             }
         }
